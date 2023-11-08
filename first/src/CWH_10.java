@@ -1,6 +1,12 @@
 package com.company;
-public class CWH_10 {
-    public static void main(String[] args) {
-        System.out.println("hello");
+class Test1{
+    public static void main(String exam[]){
+        byte a = 126; char ch = 'f'; int c = a % 1;
+        a+=2;
+        ch=++ch;
+        System.out.print(ch+a+c+" ");
+        a-=1;
+        ch=ch--;
+        System.out.print(ch+a+c);
     }
 }
