@@ -15,9 +15,11 @@ class patterns{
 			}System.out.println();
 		}
 		for(int i=n-1;i>=1;i--){
+			//for space
 			for(int k=n-i;k>=1;k--){
 				System.out.print(" ");
 			}
+			//for printing
 			for (int j=i;j>=1;j--){
 				System.out.print("* ");
 			}System.out.println();
