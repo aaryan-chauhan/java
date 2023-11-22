@@ -30,8 +30,8 @@ class array{
 			}
 			//for pirinting transpose
 			System.out.println("transpose of abpve matrix is:");
-			for(int i=0;i<a.length;i++){
-				for(int j=0;j<a[i].length;j++){
+			for(int i=0;i<b.length;i++){
+				for(int j=0;j<b[i].length;j++){
 					System.out.print(b[i][j]);
 				}System.out.println();
 			}
