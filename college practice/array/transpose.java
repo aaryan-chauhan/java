@@ -1,4 +1,4 @@
-//write a program to find transpose of user input array and display it.
+//write a program to find transpose of user input square array and display it.
 import java.util.*;
 class array{
 	public static void main(String args[]){
