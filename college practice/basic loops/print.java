@@ -125,6 +125,26 @@ class loop{
 			b++;
 		}
 		//10. count number of digits in a number.
-		 
+		System.out.println("enter big int for counting digits it has");
+		int bigint=sc.nextInt();
+		int count=0;
+		int num=bigint;
+		while(bigint>0){
+			count++;
+			bigint/=10;
+		}System.out.println("no. of digits "+num+" has: "+count);
+		//11. print first and last digits of number given by user.
+		int firstdig,lastdig=0;
+		lastdig=num%10;
+		while(num>0){
+			firstdig=num%10;
+			num=num/10;
+		}
+		System.out.println("the first number is: "+firstdig);
+		System.out.println("the last number is: "+lastdig);
+		//12. find sum of first and last digit of number entered.
+		int flsum=firstdig+lastdig;
+		System.out.println("the sum of first and last digit is: "+flsum);
+		
 	}
 }
