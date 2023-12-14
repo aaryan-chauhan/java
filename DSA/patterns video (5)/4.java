@@ -22,11 +22,5 @@ class patterns{
 				System.out.print("* ");
 			}System.out.println();
 		}	
-		//using reverse logic
-		for(int i=row;i>=0;i--){
-			for (int j=1;j<=col;j++){
-					System.out.print("* ");
-			}System.out.println();
-		}
 	}
 }
