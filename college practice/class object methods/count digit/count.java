@@ -6,7 +6,7 @@ class count{
 	void nncount(){
 		System.out.println("enter your number for no return no argument: ");
 		int n=sc.nextInt();
-		int count;
+		int count=0;
 		while(n>0){
 			count++;
 			n/=10;
@@ -15,18 +15,18 @@ class count{
 	}
 	//2.no return with argument.
 	void nwcount(int n){
-		int count;
+		int count=0;
 		while(n>0){
 			count++;
 			n/=10;
 		}
-		System.out.print(count);
+		System.out.println("no. of digits: "+count);
 	}
 	//3.with return no argument
 	int wncount(){
 		System.out.println("enter your number for with return no argument: ");
 		int n=sc.nextInt();
-		int count;
+		int count=0;
 		while(n>0){
 			count++;
 			n/=10;
@@ -35,7 +35,7 @@ class count{
 	}
 	//4.with return with argument
 	int wwcount(int n){
-		int count;
+		int count=0;
 		while(n>0){
 			count++;
 			n/=10;
@@ -51,10 +51,10 @@ class count{
 		int nnw=sc.nextInt();
 		c1.nwcount(nnw);
 		//for 3
-		c1.wncount();
+		System.out.println("no. of digits: "+c1.wncount());
 		//for 4
 		System.out.println("enter your number for with return with argument:");
 		int nww=sc.nextInt();
-		c1.wwcount(nww);
+		System.out.println("no. of digits: "+c1.wwcount(nww));
 	}
 }
