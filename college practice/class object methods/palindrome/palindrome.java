@@ -113,5 +113,6 @@ class Main{
 			System.out.println("palindrome");
 		}else{
 			System.out.println("not palindrome");
-		}	}
+		}
+	}
 }
